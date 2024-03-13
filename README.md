@@ -25,3 +25,5 @@ git clone https://github.com/your-username/shortest-path-maze.git
    - Set Wall: Click and drag to create walls in the maze.
    - Run Dijkstra: Click to find the shortest path between the start and end points.
    - Reset Maze: Click to reset the maze to its initial state.
+
+* Or you can try the <b>[live demo](https://abdelrhmanghaly-whp.github.io/Dijkstra-Maze/)</b>.
