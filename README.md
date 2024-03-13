@@ -1,10 +1,9 @@
 # Shortest Path Maze with Dijkstra's Algorithm
 
-This project implements a maze visualization tool where users can customize a maze grid, set start and end points, and find the shortest path between them using Dijkstra's algorithm. Users can also add walls to the maze to create obstacles.
+This project implements a maze visualization tool where users can customize a maze,set start and end points, and find the shortest path between them using Dijkstra's algorithm. Users can also add walls to the maze to create obstacles.
 
 ## Features
 
-- Create a customizable maze grid
 - Set start and end points
 - Add walls to the maze
 - Find the shortest path between start and end points using Dijkstra's algorithm
