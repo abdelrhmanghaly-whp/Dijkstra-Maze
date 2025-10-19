@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
     let startSet = false;
     let endSet = false;
     let wallSet = false;
-    // kol mra h3oz a3ml update lel buttons
     for (let i = 0; i < 10; i++) {
         for (let j = 0; j < 10; j++) {
             const cell = document.createElement('div');
@@ -37,7 +36,6 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
     });
-    // reset 
     document.getElementById('reset').addEventListener('click', () => {
         const cells = maze.querySelectorAll('div');
         cells.forEach(cell => {
@@ -47,35 +45,22 @@ document.addEventListener('DOMContentLoaded', function () {
         endSet = false;
         wallSet = false;
     });
-    //-----
-    // start p
     document.getElementById('setStart').addEventListener('click', () => {
         startSet = true;
         endSet = false;
         wallSet = false;
     });
-    //-----
-    // end p
     document.getElementById('setEnd').addEventListener('click', () => {
         startSet = false;
         endSet = true;
         wallSet = false;
     });
-    //-----
-    // walls
     document.getElementById('setWall').addEventListener('click', () => {
         startSet = false;
         endSet = false;
         wallSet = true;
     });
-    // algo
     document.getElementById('runAlgorithm').addEventListener('click', () => {
-        // console.log('sh8al sh8al');
         dijkstra();
-        //alert('Shortest Path Found'); r5ma fash5 mlhash lzma
-        //if (dijkstra()) alert("Shortest Path Found");
-        // else alert("Check your walls placement.")
-
     });
-
 });
